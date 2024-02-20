@@ -1,2 +1,7 @@
-num = int(input("Enter the number: "))
-print("the entered numbers are",num)
+requested=['mushroom','green peppers','extra chesse']
+for requested in requested:
+    if requested=='green peppers':
+        print("sorry we are out of ",requested)
+    else:
+        print("add")
+    
